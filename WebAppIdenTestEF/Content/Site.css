@@ -1,0 +1,97 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.Logo {
+    position: absolute;
+    top: 1em;
+    left: 45%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.mainHeader {
+    top: 2em;
+    left:2em;
+    z-index: 0;
+    height: 300px;
+    width: auto;
+    background-color:antiquewhite;
+    color:black;
+}
+
+
+.mainPageBG {
+    background-image: url("../images/alessio-soggetti-rSFxBGpnluw-unsplash.jpg");
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.theIndex {
+    height: 70%;
+    width: 80%;
+    background-color:dimgrey;
+    color: white;
+}
+
+.w3-button {
+    width: 150px
+}
+
+/*for top menu*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        li a:hover {
+            background-color: #111;
+        }
+
+/*        End Top Menu*/
