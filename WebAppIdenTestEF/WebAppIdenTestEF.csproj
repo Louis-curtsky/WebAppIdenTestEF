@@ -202,6 +202,8 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="images\alessio-soggetti-rSFxBGpnluw-unsplash.jpg" />
+    <Content Include="images\Asset 1.png" />
+    <Content Include="images\cartoon-man-icon-2644481.jpg" />
     <Content Include="images\UAS-Logo-Cut.png" />
     <Content Include="images\UAS-LOGO.jpg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -277,6 +279,7 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Account\LoginCSS.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
